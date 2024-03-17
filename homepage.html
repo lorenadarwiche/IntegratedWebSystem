@@ -1,0 +1,53 @@
+<!--homepage.html-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login and Registration System</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        .loginBox {
+            border: 2px solid #000;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            position: relative; /* Needed for the positioning of the pseudo-element */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add this line for a subtle shadow */
+
+        }
+
+        .loginBox:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.3); /* Light transparent white background */
+            z-index: -1; /* Place the pseudo-element behind the login box */
+        }
+    </style>
+</head>
+<body> 
+    <center>
+    <br><br>
+    
+    <!-- Login Form -->
+    <h1>Login</h1>
+    <h2>
+        <div class="loginBox">
+            <form action="hplogin.php" method="post">
+                <label for="userLogin">Username:</label>
+                <input type="text" name="userLogin" required><br>
+            
+                <label for="passLogin">Password:</label>
+                <input type="password" name="passLogin" required><br><br>
+            
+                <input type="submit" value="Login"><br><br>
+                <a href='registerform.html'>Register</a> 
+            </form>
+        </div>
+    </h2>
+    <h3><a href='index.html'>Go back to MainPage!</a></h3>
+</center>
+</body>
+</html>
