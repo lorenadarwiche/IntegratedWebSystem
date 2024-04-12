@@ -1,4 +1,4 @@
-# IntegratedWebSystem
+# Integrated Web System
 ## Project Overview
 The Integrated Web System is a comprehensive project built using MySQL, PHP, CSS, and HTML. Designed to streamline various web functions, this system offers a seamless user experience.
 
