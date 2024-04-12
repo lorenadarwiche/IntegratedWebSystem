@@ -1,8 +1,10 @@
 # IntegratedWebSystem
+## Project Overview
+The Integrated Web System is a comprehensive project built using MySQL, PHP, CSS, and HTML. Designed to streamline various web functions, this system offers a seamless user experience.
 
-Integrated Web System using MySQL, PHP,CSS and HTML
-For this project, you have to have XAMPP for this work. (Maybe another website can work for this project but I used XAMPP for this as it has MySQL!).
-- After downloading XAMPP, I opened it up and click on "go to application". Afterwards, I went to phpMyAdmin and I clicked on SQL!
-- Then I copied and pasted the content that are in both contentEdit.sql and registeredUsers.sql, and pasted it into the textbox in the SQL screen!
-- Lastly, download the other files and the webpage should work! Let me know if it doesn't by direct messaging me on [linkedin](https://www.linkedin.com/in/lorenadarwiche/) ! ❤️❤️💕
- - This is how the webpage is suppose to look like: [Personal Webpage ](https://luluswebsite.000webhostapp.com/homepage.html)
+## How I complete the completed the project? 
+1. I reviewed websites like [PHP Tutorial](http://www.w3schools.com/php), [PHP: Hypertext Preprocessor](www.php.net),[HTML Tutorial](www.w3schools.com/html), 
+[SQL Tutorial](www.w3schools.com/sql), to help me with understanding the basics of each line of code.
+2. After reviewing these website, I searched up some [Youtube](https://youtu.be/scd8YKiuS7I?si=jP-5ELILV12qaYB2) videos that helped with trying to understand the logic behind the code and how to set it up! However, I didn't do everything that was said in the video as I did wanna try to do my own twist/way of doing the website!
+[Website](https://luluswebsite.000webhostapp.com/homepage.html)
+
